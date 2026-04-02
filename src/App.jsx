@@ -149,9 +149,17 @@ function Columns() {
           gap: "10px",
         }}
       >
-        <div style={{ border: "1px solid black" }}>Sütun 1</div>
-        <div style={{ border: "1px solid black" }}>Sütun 2</div>
-        <div style={{ border: "1px solid black" }}>Sütun 3</div>
+        <div id="todo" style={theme.todoStyle}>
+          <h2>Yapılacak</h2>
+        </div>
+
+        <div id="doing" style={theme.doingStyle}>
+          <h2>Yapılıyor</h2>
+        </div>
+
+        <div id="done" style={theme.doneStyle}>
+          <h2>Bitti</h2>
+        </div>
       </div>
 
     </section>
